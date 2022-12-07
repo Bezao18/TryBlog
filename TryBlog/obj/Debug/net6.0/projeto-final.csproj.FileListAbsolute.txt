@@ -25,3 +25,13 @@ C:\Users\User\Desktop\Projetos\C#\projeto-final\obj\Debug\net6.0\refint\projeto-
 C:\Users\User\Desktop\Projetos\C#\projeto-final\obj\Debug\net6.0\projeto-final.pdb
 C:\Users\User\Desktop\Projetos\C#\projeto-final\obj\Debug\net6.0\projeto-final.genruntimeconfig.cache
 C:\Users\User\Desktop\Projetos\C#\projeto-final\obj\Debug\net6.0\ref\projeto-final.dll
+C:\Users\berna\Desktop\Projeto\TryBlog\TryBlog\obj\Debug\net6.0\projeto-final.csproj.AssemblyReference.cache
+C:\Users\berna\Desktop\Projeto\TryBlog\TryBlog\obj\Debug\net6.0\projeto-final.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\berna\Desktop\Projeto\TryBlog\TryBlog\obj\Debug\net6.0\projeto-final.AssemblyInfoInputs.cache
+C:\Users\berna\Desktop\Projeto\TryBlog\TryBlog\obj\Debug\net6.0\projeto-final.AssemblyInfo.cs
+C:\Users\berna\Desktop\Projeto\TryBlog\TryBlog\obj\Debug\net6.0\projeto-final.csproj.CoreCompileInputs.cache
+C:\Users\berna\Desktop\Projeto\TryBlog\TryBlog\obj\Debug\net6.0\projeto-final.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\berna\Desktop\Projeto\TryBlog\TryBlog\obj\Debug\net6.0\projeto-final.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\berna\Desktop\Projeto\TryBlog\TryBlog\obj\Debug\net6.0\projeto-final.dll
+C:\Users\berna\Desktop\Projeto\TryBlog\TryBlog\obj\Debug\net6.0\refint\projeto-final.dll
+C:\Users\berna\Desktop\Projeto\TryBlog\TryBlog\obj\Debug\net6.0\projeto-final.pdb
