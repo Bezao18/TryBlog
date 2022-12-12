@@ -15,16 +15,51 @@ public class PostController : ControllerBase
         _repository = repository;
     }
 
-    [HttpGet]
-    public IActionResult GetAll()
+    [HttpGet("{postId}")]
+    public IActionResult GetPost(Guid postId)
     {
-       return Ok(_repository.GetAllUsers());
+        var post = _repository.GetPost(postId);
+        if (post == null)
+        {
+            return NotFound();
+        }
+        return Ok(post);
+    }
+
+    [HttpGet("{userId}")]
+    public IActionResult GetAll(Guid userId)
+    {
+       return Ok(_repository.GetPostsByUser(userId));
     }
 
     [HttpPost]
-    public IActionResult CreateUser([FromBody] User user)
+    public IActionResult CreatePost([FromBody] Post post)
     {
-       _repository.CreateUser(user);
-       return CreatedAtAction("CreateUser", user);
+        _repository.CreatePost(post);
+        return CreatedAtAction("CreatePost", post);
+    }
+
+    [HttpPut("{id}")]
+    public IActionResult UpdatePost(Guid id, [FromBody] Post post)
+    {
+        var postToUpdate = _repository.GetPost(id);
+        if (postToUpdate == null)
+        {
+            return NotFound();
+        }
+        _repository.UpdatePost(id, post);
+        return NoContent();
+    }
+
+    [HttpDelete("{id}")]
+    public IActionResult DeletePost(Guid id)
+    {
+        var postToDelete = _repository.GetPost(id);
+        if (postToDelete == null)
+        {
+            return NotFound();
+        }
+        _repository.DeletePost(id);
+        return NoContent();
     }
 }
