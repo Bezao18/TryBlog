@@ -35,6 +35,9 @@ public class PostController : ControllerBase
     [HttpPost]
     public IActionResult CreatePost([FromBody] Post post)
     {
+        if(post == null){
+            return BadRequest();
+        }
         _repository.CreatePost(post);
         return CreatedAtAction("CreatePost", post);
     }
@@ -43,6 +46,9 @@ public class PostController : ControllerBase
     public IActionResult UpdatePost(Guid id, [FromBody] Post post)
     {
         var postToUpdate = _repository.GetPost(id);
+        if(post == null){
+            return BadRequest();
+        }
         if (postToUpdate == null)
         {
             return NotFound();

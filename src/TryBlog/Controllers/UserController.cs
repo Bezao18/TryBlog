@@ -36,6 +36,9 @@ public class UserController : ControllerBase
     public IActionResult CreateUser([FromBody] User user)
     {
         _repository.CreateUser(user);
+        if(user == null){
+            return BadRequest();
+        }
         return CreatedAtAction("CreateUser", user);
     }
 
@@ -43,6 +46,9 @@ public class UserController : ControllerBase
     public IActionResult UpdateUser(Guid id, [FromBody] User user)
     {
         var userToUpdate = _repository.GetUserById(id);
+        if(user == null){
+            return BadRequest();
+        }
         if (userToUpdate == null)
         {
             return NotFound();
