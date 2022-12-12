@@ -19,7 +19,7 @@ public class TryBlogContext : DbContext, ITryBlogContext
                 Server=127.0.0.1;
                 Database=TryBlog;
                 User=sa;
-                Password={DotNetEnv.Env.GetString("SA_PASWORD")};
+                Password={DotNetEnv.Env.GetString("SA_PASSWORD")};
             ");
         }
     }
