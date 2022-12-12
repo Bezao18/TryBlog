@@ -1,4 +1,4 @@
-namespace projeto_final;
+namespace projeto_final.Models;
 
 public class User
 {
