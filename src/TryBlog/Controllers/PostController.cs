@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using projeto_final.Models;
+using projeto_final.Repository;
 
 namespace projeto_final.Controllers;
 
@@ -7,26 +8,23 @@ namespace projeto_final.Controllers;
 [Route("[controller]")]
 public class PostController : ControllerBase
 {
-    private readonly ILogger<PostController> _logger;
+    private readonly ITryBlogRepository _repository;
 
-    public PostController(ILogger<PostController> logger)
+    public PostController(ITryBlogRepository repository)
     {
-        _logger = logger;
+        _repository = repository;
     }
 
     [HttpGet]
-    public IEnumerable<Post> GetAll()
+    public IActionResult GetAll()
     {
-        return Enumerable.Range(1, 5).Select(index => new Post()
-       )
-        .ToArray();
+       return Ok(_repository.GetAllUsers());
     }
 
     [HttpPost]
-    public IEnumerable<Post> AddPost()
+    public IActionResult CreateUser([FromBody] User user)
     {
-        return Enumerable.Range(1, 5).Select(index => new Post()
-       )
-        .ToArray();
+       _repository.CreateUser(user);
+       return CreatedAtAction("CreateUser", user);
     }
 }

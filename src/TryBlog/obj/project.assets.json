@@ -7445,11 +7445,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\TryBlog\\projeto-final.csproj",
+      "projectUniqueName": "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\TryBlog\\projeto-final.csproj",
       "projectName": "projeto-final",
-      "projectPath": "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\TryBlog\\projeto-final.csproj",
+      "projectPath": "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\TryBlog\\projeto-final.csproj",
       "packagesPath": "C:\\Users\\berna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\TryBlog\\obj\\",
+      "outputPath": "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\TryBlog\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\berna\\AppData\\Roaming\\NuGet\\NuGet.Config"
