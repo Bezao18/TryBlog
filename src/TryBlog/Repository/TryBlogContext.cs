@@ -15,11 +15,11 @@ public class TryBlogContext : DbContext, ITryBlogContext
     {
         if (!optionsBuilder.IsConfigured)
         {
-            optionsBuilder.UseSqlServer(@"
+            optionsBuilder.UseSqlServer(@$"
                 Server=127.0.0.1;
                 Database=TryBlog;
                 User=sa;
-                Password=SENHA;
+                Password={DotNetEnv.Env.GetString("SA_PASWORD")};
             ");
         }
     }
