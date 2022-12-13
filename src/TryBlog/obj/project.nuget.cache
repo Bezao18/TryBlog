@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "802XpSNY4xnLU2Tj55RaH8YW6Y3b3mBeIkEN+UJhrhRowTQAMb4KYIsiZVMpb+6bFsOutUC8Qj4xVuW6a8Mcxg==",
+  "dgSpecHash": "mQDAXk7RREDjYppyEmJ/cdy2G+arVNvKKEiU7LTomZ0xOK7uLgyMSYx2Fn1eeNCvle9OMf/hExMhPEr3QgNeOA==",
   "success": true,
   "projectFilePath": "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\TryBlog\\projeto-final.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\berna\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\berna\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\berna\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\berna\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.6\\microsoft.aspnetcore.authentication.jwtbearer.6.0.6.nupkg.sha512",
     "C:\\Users\\berna\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\2.2.0\\microsoft.aspnetcore.cryptography.internal.2.2.0.nupkg.sha512",
     "C:\\Users\\berna\\.nuget\\packages\\microsoft.aspnetcore.dataprotection\\2.2.0\\microsoft.aspnetcore.dataprotection.2.2.0.nupkg.sha512",
     "C:\\Users\\berna\\.nuget\\packages\\microsoft.aspnetcore.dataprotection.abstractions\\2.2.0\\microsoft.aspnetcore.dataprotection.abstractions.2.2.0.nupkg.sha512",

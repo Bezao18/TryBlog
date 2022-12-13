@@ -191,3 +191,4 @@ C:\Users\berna\Desktop\Projeto\TryBlog\src\TryBlog\obj\Debug\net6.0\refint\proje
 C:\Users\berna\Desktop\Projeto\TryBlog\src\TryBlog\obj\Debug\net6.0\projeto-final.pdb
 C:\Users\berna\Desktop\Projeto\TryBlog\src\TryBlog\obj\Debug\net6.0\projeto-final.genruntimeconfig.cache
 C:\Users\berna\Desktop\Projeto\TryBlog\src\TryBlog\obj\Debug\net6.0\ref\projeto-final.dll
+C:\Users\berna\Desktop\Projeto\TryBlog\src\TryBlog\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

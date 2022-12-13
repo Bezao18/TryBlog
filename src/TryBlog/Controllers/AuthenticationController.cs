@@ -28,7 +28,7 @@ public class AuthenticationController : ControllerBase
             return BadRequest("Invalid credentials");
         }
         userToLogin.Password = null;
-        var token = new TokenGenerator().GenerateToken(userToLogin);
+        var token = new TokenGenerator().Generate(userToLogin);
         return Ok(token);
     }
    
@@ -43,7 +43,7 @@ public class AuthenticationController : ControllerBase
         }
         _repository.CreateUser(user);
         user.Password = null;
-        var token = new TokenGenerator().GenerateToken(user);
+        var token = new TokenGenerator().Generate(user);
         return CreatedAtAction("Signup", token);
     }
   

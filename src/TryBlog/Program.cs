@@ -1,4 +1,7 @@
 using projeto_final.Repository;
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 
 DotNetEnv.Env.Load(".env"); 
 var builder = WebApplication.CreateBuilder(args);
@@ -41,6 +44,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 
