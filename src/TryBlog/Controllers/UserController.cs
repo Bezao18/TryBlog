@@ -23,12 +23,17 @@ public class UserController : ControllerBase
     public IActionResult UpdateUser(Guid id, [FromBody] User user)
     {
         var userToUpdate = _repository.GetUserById(id);
+        var token = new JwtSecurityToken(HttpContext.Request.Headers["Authorization"].ToString().Substring(7));
+        var userId = new Guid(token.Payload["UserId"].ToString()!);
         if(user == null){
             return BadRequest();
         }
         if (userToUpdate == null)
         {
             return NotFound();
+        }
+        if(userToUpdate.UserId != userId){
+            return Unauthorized();
         }
         _repository.UpdateUser(user);
         return NoContent();
@@ -38,10 +43,15 @@ public class UserController : ControllerBase
     [HttpDelete("{id}")]
     public IActionResult DeleteUser(Guid id)
     {
+        var token = new JwtSecurityToken(HttpContext.Request.Headers["Authorization"].ToString().Substring(7));
+        var userId = new Guid(token.Payload["UserId"].ToString()!);
         var userToDelete = _repository.GetUserById(id);
         if (userToDelete == null)
         {
             return NotFound();
+        }
+        if(userToDelete.UserId != userId){
+            return Unauthorized();
         }
         _repository.DeleteUser(userToDelete);
         return NoContent();

@@ -41,9 +41,12 @@ public class PostController : ControllerBase
     [HttpPost]
     public IActionResult CreatePost([FromBody] Post post)
     {
+        var token = new JwtSecurityToken(HttpContext.Request.Headers["Authorization"].ToString().Substring(7));
+        var userId = new Guid(token.Payload["UserId"].ToString()!);
         if(post == null){
             return BadRequest();
         }
+        post.UserId = userId;
         _repository.CreatePost(post);
         return CreatedAtAction("CreatePost", post);
     }
@@ -52,6 +55,8 @@ public class PostController : ControllerBase
     [HttpPut("{id}")]
     public IActionResult UpdatePost(Guid id, [FromBody] Post post)
     {
+        var token = new JwtSecurityToken(HttpContext.Request.Headers["Authorization"].ToString().Substring(7));
+        var userId = new Guid(token.Payload["UserId"].ToString()!);
         var postToUpdate = _repository.GetPost(id);
         if(post == null){
             return BadRequest();
@@ -59,6 +64,9 @@ public class PostController : ControllerBase
         if (postToUpdate == null)
         {
             return NotFound();
+        }
+        if(postToUpdate.UserId != userId){
+            return Unauthorized();
         }
         _repository.UpdatePost(id, post);
         return NoContent();
@@ -68,10 +76,15 @@ public class PostController : ControllerBase
     [HttpDelete("{id}")]
     public IActionResult DeletePost(Guid id)
     {
+        var token = new JwtSecurityToken(HttpContext.Request.Headers["Authorization"].ToString().Substring(7));
+        var userId = new Guid(token.Payload["UserId"].ToString()!);
         var postToDelete = _repository.GetPost(id);
         if (postToDelete == null)
         {
             return NotFound();
+        }
+        if(postToDelete.UserId != userId){
+            return Unauthorized();
         }
         _repository.DeletePost(id);
         return NoContent();
