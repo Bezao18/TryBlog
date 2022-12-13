@@ -15,23 +15,7 @@ public class UserController : ControllerBase
         _repository = repository;
     }
 
-    [HttpGet]
-    public IActionResult GetAll()
-    {
-        return Ok(_repository.GetAllUsers());
-    }
-
-    [HttpGet("{id}")]
-    public IActionResult GetUserById(Guid id)
-    {
-        var user = _repository.GetUserById(id);
-        if (user == null)
-        {
-            return NotFound();
-        }
-        return Ok(user);
-    }
-
+    [Authorize]
     [HttpPut("{id}")]
     public IActionResult UpdateUser(Guid id, [FromBody] User user)
     {
@@ -47,6 +31,7 @@ public class UserController : ControllerBase
         return NoContent();
     }
 
+    [Authorize]
     [HttpDelete("{id}")]
     public IActionResult DeleteUser(Guid id)
     {

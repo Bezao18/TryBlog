@@ -15,10 +15,11 @@ public class AuthenticationController : ControllerBase
         _repository = repository;
     }
 
+    [AllowAnonymous]
     [HttpPost("login")]
     public IActionResult Login([FromBody] User user)
     {
-        var userToLogin = _repository.GetUserById(user.Email);
+        var userToLogin = _repository.GetUserByEmail(user.Email);
         if (userToLogin == null)
         {
             return NotFound("User not Found");
@@ -33,18 +34,22 @@ public class AuthenticationController : ControllerBase
     }
    
 
-    [HttpGet("signup")]
+    [AllowAnonymous]
+    [HttpPost("signup")]
     public IActionResult Signup([FromBody] User user)
     {
-        var userToSignup = _repository.GetUserById(user.UserId);
+        var userToSignup = _repository.GetUserByEmail(user.Email);
         if (userToSignup != null)
         {
-            return BadRequest("User already exists");
+          return BadRequest("User already exists");
+        } if(user.UserName == null || user.Password == null)
+        {
+          return BadRequest("Username and password are required")
         }
         _repository.CreateUser(user);
         user.Password = null;
         var token = new TokenGenerator().Generate(user);
         return CreatedAtAction("Signup", token);
     }
-  
+    
 }

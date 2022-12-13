@@ -15,6 +15,7 @@ public class PostController : ControllerBase
         _repository = repository;
     }
 
+    [Authorize]
     [HttpGet("{postId}")]
     public IActionResult GetPost(Guid postId)
     {
@@ -26,12 +27,14 @@ public class PostController : ControllerBase
         return Ok(post);
     }
 
+    [Authorize]
     [HttpGet("{userId}")]
     public IActionResult GetAll(Guid userId)
     {
        return Ok(_repository.GetPostsByUser(userId));
     }
 
+    [Authorize]
     [HttpPost]
     public IActionResult CreatePost([FromBody] Post post)
     {
@@ -42,6 +45,7 @@ public class PostController : ControllerBase
         return CreatedAtAction("CreatePost", post);
     }
 
+    [Authorize]
     [HttpPut("{id}")]
     public IActionResult UpdatePost(Guid id, [FromBody] Post post)
     {
@@ -56,7 +60,8 @@ public class PostController : ControllerBase
         _repository.UpdatePost(id, post);
         return NoContent();
     }
-
+    
+    [Authorize]
     [HttpDelete("{id}")]
     public IActionResult DeletePost(Guid id)
     {
