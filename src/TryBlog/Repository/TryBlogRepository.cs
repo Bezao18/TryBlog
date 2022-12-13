@@ -15,6 +15,10 @@ public class TryBlogRepository : ITryBlogRepository {
         public User GetUserByEmail(string email){
             return _context.Users.FirstOrDefault(u => u.Email == email);
         }
+
+        public User GetUserById(Guid id){
+            return _context.Users.FirstOrDefault(u => u.UserId == id);
+        }
         public void CreateUser(User user){
             _context.Users.Add(user);
             _context.SaveChanges();

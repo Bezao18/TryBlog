@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using projeto_final.Models;
 using projeto_final.Repository;
 using projeto_final.Services;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace projeto_final.Controllers;
 
@@ -42,9 +44,9 @@ public class AuthenticationController : ControllerBase
         if (userToSignup != null)
         {
           return BadRequest("User already exists");
-        } if(user.UserName == null || user.Password == null)
+        } if(user.Username == null || user.Password == null)
         {
-          return BadRequest("Username and password are required")
+          return BadRequest("Username and password are required");
         }
         _repository.CreateUser(user);
         user.Password = null;

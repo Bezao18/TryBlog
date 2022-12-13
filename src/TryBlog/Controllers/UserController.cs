@@ -1,6 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using projeto_final.Models;
 using projeto_final.Repository;
+using Microsoft.AspNetCore.Authorization;
+using System.IdentityModel.Tokens.Jwt;
+
 
 namespace projeto_final.Controllers;
 

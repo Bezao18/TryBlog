@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mQDAXk7RREDjYppyEmJ/cdy2G+arVNvKKEiU7LTomZ0xOK7uLgyMSYx2Fn1eeNCvle9OMf/hExMhPEr3QgNeOA==",
+  "dgSpecHash": "WIkv+Mn9rlBsWr7985T+bphRnk5Ub+ZgoQvvgBxXIv0ue3RBMZqNV7axvytLoliDsPYe39WFMlufXvU22KjcXA==",
   "success": true,
   "projectFilePath": "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\TryBlog\\projeto-final.csproj",
   "expectedPackageFiles": [
@@ -58,7 +58,7 @@
     "C:\\Users\\berna\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\berna\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\berna\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
-    "C:\\Users\\berna\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\berna\\.nuget\\packages\\microsoft.openapi\\1.4.5\\microsoft.openapi.1.4.5.nupkg.sha512",
     "C:\\Users\\berna\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\berna\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\berna\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",

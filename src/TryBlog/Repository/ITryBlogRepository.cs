@@ -6,6 +6,7 @@ namespace projeto_final.Repository
     {
         IEnumerable<User> GetAllUsers();
         User GetUserByEmail(string email);
+        User GetUserById(Guid userId);
         void CreateUser(User user);
         void UpdateUser(User user);
         void DeleteUser(User user);
