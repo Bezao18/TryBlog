@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using projeto_final.Models;
 using projeto_final.Repository;
+using projeto_final.Services;
 
 namespace projeto_final.Controllers;
 
@@ -15,24 +16,35 @@ public class AuthenticationController : ControllerBase
     }
 
     [HttpPost("login")]
-    public IActionResult Login()
+    public IActionResult Login([FromBody] User user)
     {
-      var user = _repository.GetUserById(id);
-      if (user == null)
-      {
-          return NotFound();
-      }
-      return Ok();
+        var userToLogin = _repository.GetUserById(user.UserId);
+        if (userToLogin == null)
+        {
+            return NotFound();
+        }
+        if (userToLogin.Password != user.Password || userToLogin.Username != user.Username)
+        {
+            return BadRequest("Invalid credentials");
+        }
+        userToLogin.Password = null;
+        var token = new TokenGenerator().GenerateToken(userToLogin);
+        return Ok(token);
     }
+   
 
     [HttpGet("signup")]
-    public IActionResult Signup(Guid id)
+    public IActionResult Signup([FromBody] User user)
     {
-        var user = _repository.GetUserById(id);
-        if (user == null)
+        var userToSignup = _repository.GetUserById(user.UserId);
+        if (userToSignup != null)
         {
-            return Ok();
+            return BadRequest("User already exists");
         }
-        return BadRequest("User already exists");
+        _repository.CreateUser(user);
+        user.Password = null;
+        var token = new TokenGenerator().GenerateToken(user);
+        return CreatedAtAction("Signup", token);
     }
+  
 }

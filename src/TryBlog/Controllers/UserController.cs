@@ -32,16 +32,6 @@ public class UserController : ControllerBase
         return Ok(user);
     }
 
-    [HttpPost]
-    public IActionResult CreateUser([FromBody] User user)
-    {
-        _repository.CreateUser(user);
-        if(user == null){
-            return BadRequest();
-        }
-        return CreatedAtAction("CreateUser", user);
-    }
-
     [HttpPut("{id}")]
     public IActionResult UpdateUser(Guid id, [FromBody] User user)
     {
