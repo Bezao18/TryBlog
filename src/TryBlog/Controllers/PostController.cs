@@ -31,7 +31,7 @@ public class PostController : ControllerBase
     }
 
     [Authorize]
-    [HttpGet("{userId}")]
+    [HttpGet("user/{userId}")]
     public IActionResult GetAll(Guid userId)
     {
        return Ok(_repository.GetPostsByUser(userId));
@@ -47,6 +47,7 @@ public class PostController : ControllerBase
             return BadRequest();
         }
         post.UserId = userId;
+        post.CreatedAt = DateTimeOffset.Now;
         _repository.CreatePost(post);
         return CreatedAtAction("CreatePost", post);
     }
@@ -63,11 +64,12 @@ public class PostController : ControllerBase
         }
         if (postToUpdate == null)
         {
-            return NotFound();
+            return NotFound("Post not found.");
         }
         if(postToUpdate.UserId != userId){
             return Unauthorized();
         }
+        post.LastModified = DateTimeOffset.Now;
         _repository.UpdatePost(id, post);
         return NoContent();
     }

@@ -19,6 +19,19 @@ public class UserController : ControllerBase
     }
 
     [Authorize]
+    [HttpGet("{id}")]
+    public IActionResult FindUser(Guid id)
+    {
+        var user = _repository.GetUserById(id);
+        if (user == null)
+        {
+            return NotFound();
+        }
+        user.Password = null;
+        return Ok(user);
+    }
+
+    [Authorize]
     [HttpPut("{id}")]
     public IActionResult UpdateUser(Guid id, [FromBody] User user)
     {
@@ -30,7 +43,7 @@ public class UserController : ControllerBase
         }
         if (userToUpdate == null)
         {
-            return NotFound();
+            return NotFound("User not found.");
         }
         if(userToUpdate.UserId != userId){
             return Unauthorized();
@@ -48,7 +61,7 @@ public class UserController : ControllerBase
         var userToDelete = _repository.GetUserById(id);
         if (userToDelete == null)
         {
-            return NotFound();
+            return NotFound("User not found.");
         }
         if(userToDelete.UserId != userId){
             return Unauthorized();
