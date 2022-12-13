@@ -5,7 +5,7 @@ namespace projeto_final.Repository
     public interface ITryBlogRepository
     {
         IEnumerable<User> GetAllUsers();
-        User GetUserById(Guid userId);
+        User GetUserByEmail(string email);
         void CreateUser(User user);
         void UpdateUser(User user);
         void DeleteUser(User user);

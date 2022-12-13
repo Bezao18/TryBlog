@@ -18,10 +18,10 @@ public class AuthenticationController : ControllerBase
     [HttpPost("login")]
     public IActionResult Login([FromBody] User user)
     {
-        var userToLogin = _repository.GetUserById(user.UserId);
+        var userToLogin = _repository.GetUserById(user.Email);
         if (userToLogin == null)
         {
-            return NotFound();
+            return NotFound("User not Found");
         }
         if (userToLogin.Password != user.Password || userToLogin.Username != user.Username)
         {

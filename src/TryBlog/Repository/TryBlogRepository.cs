@@ -12,8 +12,8 @@ public class TryBlogRepository : ITryBlogRepository {
             return _context.Users.ToList();
         }
 
-        public User GetUserById(Guid userId){
-            return _context.Users.FirstOrDefault(u => u.UserId == userId);
+        public User GetUserByEmail(string email){
+            return _context.Users.FirstOrDefault(u => u.Email == email);
         }
         public void CreateUser(User user){
             _context.Users.Add(user);
