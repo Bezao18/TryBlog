@@ -48,7 +48,6 @@ public class UserController : ControllerBase
         if(userToUpdate.UserId != userId){
             return Unauthorized();
         }
-        user.Posts = userToUpdate.Posts;
         user.UserId = userToUpdate.UserId;
         
         _repository.UpdateUser(user);

@@ -1,106 +1,106 @@
 SF:c:\Users\berna\Desktop\Projeto\TryBlog\src\Tryblog\Program.cs
 FN:6,System.Void Program::<Main>$(System.String[])
-FNDA:0,System.Void Program::<Main>$(System.String[])
-DA:7,0
-DA:8,0
-DA:13,0
-DA:14,0
-DA:15,0
-DA:16,0
-DA:18,0
-DA:19,0
-DA:20,0
-DA:21,0
-DA:22,0
-DA:23,0
-DA:24,0
-DA:25,0
-DA:26,0
-DA:27,0
-DA:28,0
-DA:29,0
-DA:30,0
-DA:31,0
-DA:32,0
-DA:33,0
-DA:34,0
-DA:35,0
-DA:38,0
-DA:39,0
-DA:40,0
-DA:41,0
-DA:42,0
-DA:43,0
-DA:44,0
-DA:45,0
-DA:46,0
-DA:47,0
-DA:48,0
-DA:49,0
-DA:50,0
-DA:51,0
-DA:52,0
-DA:53,0
-DA:54,0
-DA:55,0
-DA:56,0
-DA:57,0
-DA:58,0
-DA:59,0
-DA:60,0
-DA:61,0
-DA:62,0
-DA:63,0
-DA:64,0
-DA:65,0
-DA:67,0
-DA:70,0
-DA:71,0
-DA:72,0
-DA:73,0
-DA:74,0
-DA:76,0
-DA:78,0
-DA:80,0
-DA:82,0
-DA:84,0
-BRDA:70,224,0,0
-BRDA:70,224,1,0
+FNDA:14,System.Void Program::<Main>$(System.String[])
+DA:7,14
+DA:8,14
+DA:13,14
+DA:14,14
+DA:15,14
+DA:16,14
+DA:18,14
+DA:19,14
+DA:20,14
+DA:21,14
+DA:22,14
+DA:23,14
+DA:24,14
+DA:25,14
+DA:26,14
+DA:27,14
+DA:28,14
+DA:29,14
+DA:30,14
+DA:31,14
+DA:32,14
+DA:33,14
+DA:34,14
+DA:35,28
+DA:38,14
+DA:39,14
+DA:40,14
+DA:41,14
+DA:42,14
+DA:43,14
+DA:44,14
+DA:45,14
+DA:46,14
+DA:47,14
+DA:48,14
+DA:49,14
+DA:50,14
+DA:51,14
+DA:52,14
+DA:53,14
+DA:54,14
+DA:55,14
+DA:56,14
+DA:57,14
+DA:58,14
+DA:59,14
+DA:60,14
+DA:61,14
+DA:62,14
+DA:63,14
+DA:64,14
+DA:65,28
+DA:67,14
+DA:70,14
+DA:71,14
+DA:72,14
+DA:73,14
+DA:74,14
+DA:76,14
+DA:78,14
+DA:80,14
+DA:82,14
+DA:84,14
+BRDA:70,224,0,14
+BRDA:70,224,1,14
 LF:63
-LH:0
+LH:63
 BRF:2
-BRH:0
+BRH:2
 FNF:1
-FNH:0
+FNH:1
 end_of_record
 SF:c:\Users\berna\Desktop\Projeto\TryBlog\src\Tryblog\Services\TokenGenerator.cs
 FN:13,System.String projeto_final.Services.TokenGenerator::Generate(projeto_final.Models.User)
-FNDA:0,System.String projeto_final.Services.TokenGenerator::Generate(projeto_final.Models.User)
-DA:14,0
-DA:15,0
-DA:16,0
-DA:17,0
-DA:18,0
-DA:19,0
-DA:20,0
-DA:21,0
-DA:22,0
-DA:23,0
-DA:24,0
-DA:25,0
+FNDA:7,System.String projeto_final.Services.TokenGenerator::Generate(projeto_final.Models.User)
+DA:14,7
+DA:15,7
+DA:16,7
+DA:17,7
+DA:18,7
+DA:19,7
+DA:20,7
+DA:21,7
+DA:22,7
+DA:23,7
+DA:24,7
+DA:25,7
 FN:27,System.Security.Claims.ClaimsIdentity projeto_final.Services.TokenGenerator::AddClaims(projeto_final.Models.User)
-FNDA:0,System.Security.Claims.ClaimsIdentity projeto_final.Services.TokenGenerator::AddClaims(projeto_final.Models.User)
-DA:28,0
-DA:29,0
-DA:30,0
-DA:31,0
-DA:32,0
+FNDA:7,System.Security.Claims.ClaimsIdentity projeto_final.Services.TokenGenerator::AddClaims(projeto_final.Models.User)
+DA:28,7
+DA:29,7
+DA:30,7
+DA:31,7
+DA:32,7
 LF:17
-LH:0
+LH:17
 BRF:0
 BRH:0
 FNF:2
-FNH:0
+FNH:2
 end_of_record
 SF:c:\Users\berna\Desktop\Projeto\TryBlog\src\Tryblog\Repository\TryBlogContext.cs
 FN:7,Microsoft.EntityFrameworkCore.DbSet`1<projeto_final.Models.Post> projeto_final.Repository.TryBlogContext::get_Posts()
@@ -142,33 +142,33 @@ DA:13,0
 DA:14,0
 DA:15,0
 FN:16,projeto_final.Models.User projeto_final.Repository.TryBlogRepository::GetUserByEmail(System.String)
-FNDA:0,projeto_final.Models.User projeto_final.Repository.TryBlogRepository::GetUserByEmail(System.String)
-DA:17,0
-DA:18,0
-DA:19,0
+FNDA:11,projeto_final.Models.User projeto_final.Repository.TryBlogRepository::GetUserByEmail(System.String)
+DA:17,11
+DA:18,11
+DA:19,11
 FN:20,projeto_final.Models.User projeto_final.Repository.TryBlogRepository::GetUserById(System.Guid)
-FNDA:0,projeto_final.Models.User projeto_final.Repository.TryBlogRepository::GetUserById(System.Guid)
-DA:21,0
-DA:22,0
-DA:23,0
+FNDA:5,projeto_final.Models.User projeto_final.Repository.TryBlogRepository::GetUserById(System.Guid)
+DA:21,5
+DA:22,5
+DA:23,5
 FN:23,System.Void projeto_final.Repository.TryBlogRepository::CreateUser(projeto_final.Models.User)
-FNDA:0,System.Void projeto_final.Repository.TryBlogRepository::CreateUser(projeto_final.Models.User)
-DA:24,0
-DA:25,0
-DA:26,0
-DA:27,0
+FNDA:1,System.Void projeto_final.Repository.TryBlogRepository::CreateUser(projeto_final.Models.User)
+DA:24,1
+DA:25,1
+DA:26,1
+DA:27,1
 FN:27,System.Void projeto_final.Repository.TryBlogRepository::UpdateUser(projeto_final.Models.User)
-FNDA:0,System.Void projeto_final.Repository.TryBlogRepository::UpdateUser(projeto_final.Models.User)
-DA:28,0
-DA:29,0
-DA:30,0
-DA:31,0
+FNDA:1,System.Void projeto_final.Repository.TryBlogRepository::UpdateUser(projeto_final.Models.User)
+DA:28,1
+DA:29,1
+DA:30,1
+DA:31,1
 FN:31,System.Void projeto_final.Repository.TryBlogRepository::DeleteUser(projeto_final.Models.User)
-FNDA:0,System.Void projeto_final.Repository.TryBlogRepository::DeleteUser(projeto_final.Models.User)
-DA:32,0
-DA:33,0
-DA:34,0
-DA:35,0
+FNDA:1,System.Void projeto_final.Repository.TryBlogRepository::DeleteUser(projeto_final.Models.User)
+DA:32,1
+DA:33,1
+DA:34,1
+DA:35,1
 FN:36,System.Collections.Generic.IEnumerable`1<projeto_final.Models.Post> projeto_final.Repository.TryBlogRepository::GetPostsByUser(System.Guid)
 FNDA:0,System.Collections.Generic.IEnumerable`1<projeto_final.Models.Post> projeto_final.Repository.TryBlogRepository::GetPostsByUser(System.Guid)
 DA:37,0
@@ -199,118 +199,114 @@ DA:53,0
 DA:54,0
 DA:55,0
 FN:7,System.Void projeto_final.Repository.TryBlogRepository::.ctor(projeto_final.Repository.ITryBlogContext)
-FNDA:0,System.Void projeto_final.Repository.TryBlogRepository::.ctor(projeto_final.Repository.ITryBlogContext)
-DA:8,0
-DA:9,0
-DA:10,0
-DA:11,0
+FNDA:16,System.Void projeto_final.Repository.TryBlogRepository::.ctor(projeto_final.Repository.ITryBlogContext)
+DA:8,16
+DA:9,16
+DA:10,16
+DA:11,16
 LF:44
-LH:0
+LH:22
 BRF:0
 BRH:0
 FNF:12
-FNH:0
+FNH:6
 end_of_record
 SF:c:\Users\berna\Desktop\Projeto\TryBlog\src\Tryblog\Models\Post.cs
 FN:5,System.Guid projeto_final.Models.Post::get_PostId()
-FNDA:0,System.Guid projeto_final.Models.Post::get_PostId()
-DA:6,0
+FNDA:42,System.Guid projeto_final.Models.Post::get_PostId()
+DA:6,42
 FN:7,System.String projeto_final.Models.Post::get_Content()
-FNDA:0,System.String projeto_final.Models.Post::get_Content()
-DA:8,0
+FNDA:42,System.String projeto_final.Models.Post::get_Content()
+DA:8,42
 FN:8,System.DateTimeOffset projeto_final.Models.Post::get_CreatedAt()
-FNDA:0,System.DateTimeOffset projeto_final.Models.Post::get_CreatedAt()
-DA:9,0
+FNDA:42,System.DateTimeOffset projeto_final.Models.Post::get_CreatedAt()
+DA:9,42
 FN:9,System.DateTimeOffset projeto_final.Models.Post::get_LastModified()
-FNDA:0,System.DateTimeOffset projeto_final.Models.Post::get_LastModified()
-DA:10,0
+FNDA:42,System.DateTimeOffset projeto_final.Models.Post::get_LastModified()
+DA:10,42
 FN:10,System.Nullable`1<System.Guid> projeto_final.Models.Post::get_UserId()
-FNDA:0,System.Nullable`1<System.Guid> projeto_final.Models.Post::get_UserId()
-DA:11,0
+FNDA:42,System.Nullable`1<System.Guid> projeto_final.Models.Post::get_UserId()
+DA:11,42
 LF:5
-LH:0
+LH:5
 BRF:0
 BRH:0
 FNF:5
-FNH:0
+FNH:5
 end_of_record
 SF:c:\Users\berna\Desktop\Projeto\TryBlog\src\Tryblog\Models\User.cs
 FN:5,System.Nullable`1<System.Guid> projeto_final.Models.User::get_UserId()
-FNDA:0,System.Nullable`1<System.Guid> projeto_final.Models.User::get_UserId()
-DA:6,0
+FNDA:80,System.Nullable`1<System.Guid> projeto_final.Models.User::get_UserId()
+DA:6,80
 FN:6,System.String projeto_final.Models.User::get_Username()
-FNDA:0,System.String projeto_final.Models.User::get_Username()
-DA:7,0
+FNDA:76,System.String projeto_final.Models.User::get_Username()
+DA:7,76
 FN:7,System.String projeto_final.Models.User::get_Email()
-FNDA:0,System.String projeto_final.Models.User::get_Email()
-DA:8,0
+FNDA:94,System.String projeto_final.Models.User::get_Email()
+DA:8,94
 FN:8,System.String projeto_final.Models.User::get_Password()
-FNDA:0,System.String projeto_final.Models.User::get_Password()
-DA:9,0
-FN:11,System.Collections.Generic.ICollection`1<projeto_final.Models.Post> projeto_final.Models.User::get_Posts()
-FNDA:0,System.Collections.Generic.ICollection`1<projeto_final.Models.Post> projeto_final.Models.User::get_Posts()
-DA:12,0
-LF:5
-LH:0
+FNDA:105,System.String projeto_final.Models.User::get_Password()
+DA:9,105
+LF:4
+LH:4
 BRF:0
 BRH:0
-FNF:5
-FNH:0
+FNF:4
+FNH:4
 end_of_record
 SF:c:\Users\berna\Desktop\Projeto\TryBlog\src\Tryblog\Controllers\AuthenticationController.cs
 FN:22,Microsoft.AspNetCore.Mvc.IActionResult projeto_final.Controllers.AuthenticationController::Login(projeto_final.Models.User)
-FNDA:0,Microsoft.AspNetCore.Mvc.IActionResult projeto_final.Controllers.AuthenticationController::Login(projeto_final.Models.User)
-DA:23,0
-DA:24,0
-DA:25,0
-DA:26,0
-DA:27,0
-DA:29,0
-DA:30,0
-DA:31,0
-DA:33,0
-DA:34,0
-DA:35,0
-DA:36,0
-BRDA:25,25,0,0
-BRDA:25,25,1,0
-BRDA:29,63,0,0
-BRDA:29,63,1,0
+FNDA:8,Microsoft.AspNetCore.Mvc.IActionResult projeto_final.Controllers.AuthenticationController::Login(projeto_final.Models.User)
+DA:23,8
+DA:24,8
+DA:25,8
+DA:26,1
+DA:27,1
+DA:29,7
+DA:30,1
+DA:31,1
+DA:33,6
+DA:34,6
+DA:35,6
+DA:36,8
+BRDA:25,25,0,1
+BRDA:25,25,1,7
+BRDA:29,63,0,1
+BRDA:29,63,1,6
 FN:41,Microsoft.AspNetCore.Mvc.IActionResult projeto_final.Controllers.AuthenticationController::Signup(projeto_final.Models.User)
-FNDA:0,Microsoft.AspNetCore.Mvc.IActionResult projeto_final.Controllers.AuthenticationController::Signup(projeto_final.Models.User)
-DA:42,0
-DA:43,0
-DA:44,0
-DA:45,0
-DA:46,0
-DA:47,0
-DA:48,0
-DA:49,0
-DA:51,0
-DA:52,0
-DA:54,0
-DA:55,0
-DA:56,0
-DA:58,0
-DA:59,0
-BRDA:44,25,0,0
-BRDA:44,25,1,0
-BRDA:47,48,0,0
+FNDA:3,Microsoft.AspNetCore.Mvc.IActionResult projeto_final.Controllers.AuthenticationController::Signup(projeto_final.Models.User)
+DA:42,3
+DA:43,3
+DA:44,3
+DA:45,1
+DA:46,1
+DA:47,2
+DA:48,1
+DA:49,1
+DA:51,1
+DA:53,1
+DA:54,1
+DA:55,1
+DA:57,1
+DA:58,3
+BRDA:44,25,0,1
+BRDA:44,25,1,2
+BRDA:47,48,0,2
 BRDA:47,48,1,0
-BRDA:47,66,0,0
-BRDA:47,66,1,0
+BRDA:47,66,0,1
+BRDA:47,66,1,1
 FN:14,System.Void projeto_final.Controllers.AuthenticationController::.ctor(projeto_final.Repository.ITryBlogRepository)
-FNDA:0,System.Void projeto_final.Controllers.AuthenticationController::.ctor(projeto_final.Repository.ITryBlogRepository)
-DA:15,0
-DA:16,0
-DA:17,0
-DA:18,0
-LF:31
-LH:0
+FNDA:11,System.Void projeto_final.Controllers.AuthenticationController::.ctor(projeto_final.Repository.ITryBlogRepository)
+DA:15,11
+DA:16,11
+DA:17,11
+DA:18,11
+LF:30
+LH:30
 BRF:10
-BRH:0
+BRH:9
 FNF:3
-FNH:0
+FNH:3
 end_of_record
 SF:c:\Users\berna\Desktop\Projeto\TryBlog\src\Tryblog\Controllers\PostController.cs
 FN:23,Microsoft.AspNetCore.Mvc.IActionResult projeto_final.Controllers.PostController::GetPost(System.Guid)
@@ -412,83 +408,82 @@ FNH:0
 end_of_record
 SF:c:\Users\berna\Desktop\Projeto\TryBlog\src\Tryblog\Controllers\UserController.cs
 FN:23,Microsoft.AspNetCore.Mvc.IActionResult projeto_final.Controllers.UserController::FindUser(System.Guid)
-FNDA:0,Microsoft.AspNetCore.Mvc.IActionResult projeto_final.Controllers.UserController::FindUser(System.Guid)
-DA:24,0
-DA:25,0
-DA:26,0
+FNDA:1,Microsoft.AspNetCore.Mvc.IActionResult projeto_final.Controllers.UserController::FindUser(System.Guid)
+DA:24,1
+DA:25,1
+DA:26,1
 DA:27,0
 DA:28,0
-DA:30,0
-DA:31,0
-DA:32,0
+DA:30,1
+DA:31,1
+DA:32,1
 BRDA:26,20,0,0
-BRDA:26,20,1,0
+BRDA:26,20,1,1
 FN:36,Microsoft.AspNetCore.Mvc.IActionResult projeto_final.Controllers.UserController::UpdateUser(System.Guid,projeto_final.Models.User)
-FNDA:0,Microsoft.AspNetCore.Mvc.IActionResult projeto_final.Controllers.UserController::UpdateUser(System.Guid,projeto_final.Models.User)
-DA:37,0
-DA:38,0
-DA:39,0
-DA:40,0
-DA:41,0
-DA:42,0
-DA:44,0
+FNDA:2,Microsoft.AspNetCore.Mvc.IActionResult projeto_final.Controllers.UserController::UpdateUser(System.Guid,projeto_final.Models.User)
+DA:37,2
+DA:38,2
+DA:39,2
+DA:40,2
+DA:41,3
+DA:42,1
+DA:44,1
 DA:45,0
 DA:46,0
-DA:48,0
+DA:48,1
 DA:49,0
-DA:51,0
-DA:52,0
-DA:54,0
-DA:55,0
-DA:56,0
-BRDA:41,95,0,0
-BRDA:41,103,0,0
-BRDA:41,111,0,0
-BRDA:41,95,1,0
-BRDA:41,103,1,0
-BRDA:41,111,1,0
-BRDA:41,129,0,0
-BRDA:41,129,1,0
+DA:51,1
+DA:53,1
+DA:54,1
+DA:55,2
+BRDA:41,95,0,2
+BRDA:41,103,0,2
+BRDA:41,111,0,1
+BRDA:41,95,1,1
+BRDA:41,103,1,1
+BRDA:41,111,1,1
+BRDA:41,129,0,1
+BRDA:41,129,1,1
 BRDA:44,153,0,0
-BRDA:44,153,1,0
+BRDA:44,153,1,1
 BRDA:48,189,0,0
-BRDA:48,189,1,0
+BRDA:48,189,1,1
 BRDA:48,201,0,0
-BRDA:48,201,1,0
+BRDA:48,201,1,1
 BRDA:48,224,0,0
-BRDA:48,224,1,0
-FN:60,Microsoft.AspNetCore.Mvc.IActionResult projeto_final.Controllers.UserController::DeleteUser(System.Guid)
-FNDA:0,Microsoft.AspNetCore.Mvc.IActionResult projeto_final.Controllers.UserController::DeleteUser(System.Guid)
-DA:61,0
-DA:62,0
-DA:63,0
-DA:64,0
-DA:65,0
-DA:66,0
-DA:67,0
+BRDA:48,224,1,1
+FN:59,Microsoft.AspNetCore.Mvc.IActionResult projeto_final.Controllers.UserController::DeleteUser(System.Guid)
+FNDA:2,Microsoft.AspNetCore.Mvc.IActionResult projeto_final.Controllers.UserController::DeleteUser(System.Guid)
+DA:60,2
+DA:61,2
+DA:62,2
+DA:63,2
+DA:64,2
+DA:65,1
+DA:66,1
+DA:68,1
 DA:69,0
-DA:70,0
-DA:72,0
-DA:73,0
-DA:74,0
-BRDA:65,102,0,0
-BRDA:65,102,1,0
-BRDA:69,138,0,0
-BRDA:69,138,1,0
-BRDA:69,150,0,0
-BRDA:69,150,1,0
-BRDA:69,173,0,0
-BRDA:69,173,1,0
+DA:71,1
+DA:72,1
+DA:73,2
+BRDA:64,102,0,1
+BRDA:64,102,1,1
+BRDA:68,138,0,0
+BRDA:68,138,1,1
+BRDA:68,150,0,0
+BRDA:68,150,1,1
+BRDA:68,173,0,0
+BRDA:68,173,1,1
 FN:15,System.Void projeto_final.Controllers.UserController::.ctor(projeto_final.Repository.ITryBlogRepository)
-FNDA:0,System.Void projeto_final.Controllers.UserController::.ctor(projeto_final.Repository.ITryBlogRepository)
-DA:16,0
-DA:17,0
-DA:18,0
-DA:19,0
-LF:40
-LH:0
+FNDA:5,System.Void projeto_final.Controllers.UserController::.ctor(projeto_final.Repository.ITryBlogRepository)
+DA:16,5
+DA:17,5
+DA:18,5
+DA:19,5
+LF:39
+LH:33
 BRF:26
-BRH:0
+BRH:18
 FNF:4
-FNH:0
+FNH:4
 end_of_record
