@@ -11,15 +11,15 @@ public class TryBlogRepository : ITryBlogRepository {
         }
 
         public IEnumerable<User> GetAllUsers(){
-            return _context.Users.ToList();
+            return _context.Users.AsNoTracking().ToList();
         }
 
         public User GetUserByEmail(string email){
-            return _context.Users.FirstOrDefault(u => u.Email == email);
+            return _context.Users.AsNoTracking().FirstOrDefault(u => u.Email == email);
         }
 
         public User GetUserById(Guid id){
-            return _context.Users.FirstOrDefault(u => u.UserId == id);
+            return _context.Users.AsNoTracking().FirstOrDefault(u => u.UserId == id);
         }
         public void CreateUser(User user){
             _context.Users.Add(user);
@@ -38,7 +38,7 @@ public class TryBlogRepository : ITryBlogRepository {
             return _context.Posts.Where(p => p.UserId == userId).ToList();
         }
         public Post GetPost(Guid postId){
-            return _context.Posts.FirstOrDefault(p => p.PostId == postId);
+            return _context.Posts.AsNoTracking().FirstOrDefault(p => p.PostId == postId);
         }
         public void CreatePost(Post post){
             _context.Posts.Add(post);
