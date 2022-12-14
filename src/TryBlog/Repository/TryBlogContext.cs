@@ -8,8 +8,6 @@ public class TryBlogContext : DbContext, ITryBlogContext
     public DbSet<Post> Posts { get; set; }
     public DbSet<User> Users { get; set; }
     public TryBlogContext(DbContextOptions<TryBlogContext> options) : base(options) { }
-    
-    public TryBlogContext() { }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

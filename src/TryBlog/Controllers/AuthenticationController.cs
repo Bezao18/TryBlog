@@ -48,9 +48,13 @@ public class AuthenticationController : ControllerBase
         {
           return BadRequest("Username and password are required");
         }
+        user.UserId = Guid.NewGuid();
+        user.Posts = null;
+
         _repository.CreateUser(user);
         user.Password = null;
         var token = new TokenGenerator().Generate(user);
+        
         return CreatedAtAction("Signup", token);
     }
     
