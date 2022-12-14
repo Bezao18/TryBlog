@@ -25,7 +25,7 @@ public class TestUserController : IClassFixture<WebApplicationFactory<Program>>
             {
                 services.AddDbContext<TryBlogTestContext>(options =>
                 {
-                    options.UseInMemoryDatabase("InMemoryTest");
+                    options.UseInMemoryDatabase("InMemoryTest2");
                 });
                 services.AddScoped<ITryBlogContext, TryBlogTestContext>();
                 services.AddScoped<ITryBlogRepository, TryBlogRepository>();

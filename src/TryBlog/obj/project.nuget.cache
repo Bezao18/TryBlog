@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n0vBqfS7yvKYt/UN9K9AE4C87G4xs8THlUy0WPdrBPzCbnRDyId7iu9LhP0yKTIuwaMu6yyumBFXPtjiCFHDwg==",
+  "dgSpecHash": "zHekj8OokUG7f+sj4VCsq7iCzo/xcbbamU+YxmHbYN7rOLEYMdNmNSNsIzhN/cz4pmn2MfD7AgLmwzn5UNm+Ow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\TryBlog\\projeto-final.csproj",
+  "projectFilePath": "c:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\Tryblog\\projeto-final.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\berna\\.nuget\\packages\\dotnetenv\\2.3.0\\dotnetenv.2.3.0.nupkg.sha512",
     "C:\\Users\\berna\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

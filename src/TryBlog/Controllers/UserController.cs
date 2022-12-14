@@ -38,7 +38,7 @@ public class UserController : ControllerBase
         var userToUpdate = _repository.GetUserById(id);
         var token = new JwtSecurityToken(HttpContext.Request.Headers["Authorization"].ToString().Substring(7));
         var userId = new Guid(token.Payload["UserId"].ToString()!);
-        if(user == null){
+        if(user == null || user.Email == null || user.Username == null || user.Password == null){
             return BadRequest();
         }
         if (userToUpdate == null)
