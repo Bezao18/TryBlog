@@ -1,10 +1,15 @@
+using Microsoft.AspNetCore.Mvc.Testing;
+using projeto_final.Models;
+
+
 namespace TryBlog.Test;
 
-public class TestAuthenticationController
+public class TestAuthenticationController : IClassFixture<WebApplicationFactory<Program>>
 {
-    [Fact]
-    public void Test1()
+   private readonly WebApplicationFactory<Program> _factory;
+
+   public TestClientController(WebApplicationFactory<Program> factory)
     {
-        Assert.True(true);
+        _factory = factory;
     }
 }
