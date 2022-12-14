@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Projetos\\C#\\projeto-final\\TryBlog.Test\\TryBlog.Test.csproj": {}
+    "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\TryBlog.Test\\TryBlog.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Projetos\\C#\\projeto-final\\TryBlog.Test\\TryBlog.Test.csproj": {
+    "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\TryBlog.Test\\TryBlog.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Projetos\\C#\\projeto-final\\TryBlog.Test\\TryBlog.Test.csproj",
+        "projectUniqueName": "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\TryBlog.Test\\TryBlog.Test.csproj",
         "projectName": "TryBlog.Test",
-        "projectPath": "C:\\Users\\User\\Desktop\\Projetos\\C#\\projeto-final\\TryBlog.Test\\TryBlog.Test.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Projetos\\C#\\projeto-final\\TryBlog.Test\\obj\\",
+        "projectPath": "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\TryBlog.Test\\TryBlog.Test.csproj",
+        "packagesPath": "C:\\Users\\berna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\TryBlog.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\berna\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -25,7 +25,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\Tryblog\\projeto-final.csproj": {
+                "projectPath": "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\Tryblog\\projeto-final.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -38,6 +42,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.1.0, )"
@@ -75,7 +83,109 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\Tryblog\\projeto-final.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\Tryblog\\projeto-final.csproj",
+        "projectName": "projeto-final",
+        "projectPath": "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\Tryblog\\projeto-final.csproj",
+        "packagesPath": "C:\\Users\\berna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\Tryblog\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\berna\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.4.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
