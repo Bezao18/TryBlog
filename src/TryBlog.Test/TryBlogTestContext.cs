@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using projeto_final.Models;
 using projeto_final.Repository;
 
-namespace projeto_final.Test;
+namespace TryBlog.Test;
 
 public class TryBlogTestContext : DbContext, ITryBlogContext
 {

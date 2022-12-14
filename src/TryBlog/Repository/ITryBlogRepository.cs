@@ -4,17 +4,17 @@ namespace projeto_final.Repository
 {
     public interface ITryBlogRepository
     {
-        IEnumerable<User> GetAllUsers();
-        User GetUserByEmail(string email);
-        User GetUserById(Guid userId);
-        void CreateUser(User user);
-        void UpdateUser(User user);
-        void DeleteUser(User user);
+        public IEnumerable<User> GetAllUsers();
+        public User GetUserByEmail(string email);
+        public User GetUserById(Guid userId);
+        public void CreateUser(User user);
+        public void UpdateUser(User user);
+        public void DeleteUser(User user);
 
-        IEnumerable<Post> GetPostsByUser(Guid userId);
-        Post GetPost(Guid postId);
-        void CreatePost(Post post);
-        void UpdatePost(Guid postId, Post post);
-        void DeletePost(Guid postId);
+        public IEnumerable<Post> GetPostsByUser(Guid userId);
+        public Post GetPost(Guid postId);
+        public void CreatePost(Post post);
+        public void UpdatePost(Guid postId, Post post);
+        public void DeletePost(Guid postId);
     }
 }

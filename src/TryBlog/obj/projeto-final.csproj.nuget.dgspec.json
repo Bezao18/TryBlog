@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\TryBlog\\projeto-final.csproj": {}
+    "c:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\Tryblog\\projeto-final.csproj": {}
   },
   "projects": {
-    "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\TryBlog\\projeto-final.csproj": {
+    "c:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\Tryblog\\projeto-final.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\TryBlog\\projeto-final.csproj",
+        "projectUniqueName": "c:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\Tryblog\\projeto-final.csproj",
         "projectName": "projeto-final",
-        "projectPath": "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\TryBlog\\projeto-final.csproj",
+        "projectPath": "c:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\Tryblog\\projeto-final.csproj",
         "packagesPath": "C:\\Users\\berna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\TryBlog\\obj\\",
+        "outputPath": "c:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\Tryblog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\berna\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -56,17 +56,21 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
             },
             "Microsoft.OpenApi": {
               "target": "Package",
@@ -75,6 +79,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "XunitXml.TestLogger": {
+              "target": "Package",
+              "version": "[3.0.70, )"
             }
           },
           "imports": [

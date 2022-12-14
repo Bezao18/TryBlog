@@ -6,8 +6,8 @@ namespace projeto_final.Repository
 {
     public interface ITryBlogContext
     {
-        DbSet<Post> Posts { get; set; }
-        DbSet<User> Users { get; set; }
+        public DbSet<Post> Posts { get; set; }
+        public DbSet<User> Users { get; set; }
         int SaveChanges();
     }
 }
