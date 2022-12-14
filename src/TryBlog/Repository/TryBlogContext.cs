@@ -21,7 +21,7 @@ public class TryBlogContext : DbContext, ITryBlogContext
                 User=SA;
                 Password=Senha123$;
                 TrustServerCertificate=True;
-            ");
+            ").UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);;
         }
     }
 }

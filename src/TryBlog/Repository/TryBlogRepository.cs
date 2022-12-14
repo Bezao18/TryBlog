@@ -1,4 +1,6 @@
 using projeto_final.Models;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace projeto_final.Repository;
 public class TryBlogRepository : ITryBlogRepository {

@@ -47,7 +47,9 @@ public class PostController : ControllerBase
             return BadRequest();
         }
         post.UserId = userId;
+        post.PostId = Guid.NewGuid();
         post.CreatedAt = DateTimeOffset.Now;
+        post.LastModified = DateTimeOffset.Now;
         _repository.CreatePost(post);
         return CreatedAtAction("CreatePost", post);
     }
@@ -69,7 +71,10 @@ public class PostController : ControllerBase
         if(postToUpdate.UserId != userId){
             return Unauthorized();
         }
+        post.CreatedAt = postToUpdate.CreatedAt;
         post.LastModified = DateTimeOffset.Now;
+        post.UserId = userId;
+        post.PostId = id;
         _repository.UpdatePost(id, post);
         return NoContent();
     }
