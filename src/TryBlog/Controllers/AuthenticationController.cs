@@ -26,7 +26,7 @@ public class AuthenticationController : ControllerBase
         {
             return NotFound("User not Found");
         }
-        if (userToLogin.Password != user.Password || userToLogin.Username != user.Username)
+        if (userToLogin.Password != user.Password)
         {
             return BadRequest("Invalid credentials");
         }

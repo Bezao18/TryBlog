@@ -14,40 +14,6 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "Non-nullable property 'Username' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///c:/Users/berna/Desktop/Projeto/TryBlog/src/Tryblog/Models/User.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 31
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///c:/Users/berna/Desktop/Projeto/TryBlog/src/Tryblog/Models/User.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 31
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
           "message": "Non-nullable property 'Email' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
           "locations": [
             {
@@ -71,6 +37,27 @@
                   "startColumn": 23,
                   "endLine": 8,
                   "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possible null reference argument for parameter 'value' in 'Claim.Claim(string type, string value)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///c:/Users/berna/Desktop/Projeto/TryBlog/src/Tryblog/Services/TokenGenerator.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 49,
+                  "endLine": 30,
+                  "endColumn": 71
                 }
               }
             }
@@ -139,27 +126,6 @@
                   "startColumn": 24,
                   "endLine": 9,
                   "endColumn": 29
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8604",
-          "level": "warning",
-          "message": "Possible null reference argument for parameter 'value' in 'Claim.Claim(string type, string value)'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///c:/Users/berna/Desktop/Projeto/TryBlog/src/Tryblog/Services/TokenGenerator.cs",
-                "region": {
-                  "startLine": 30,
-                  "startColumn": 49,
-                  "endLine": 30,
-                  "endColumn": 71
                 }
               }
             }
