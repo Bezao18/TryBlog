@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "S/V4wMkDfiZ9M+xQsQRlDN+hVZzTcVJOo7H69l3bZ0+H34YSVJoxDnUdwMusAhF+BE4WX9pJNM3PqkC7lLrw9w==",
+  "dgSpecHash": "ZaxXJEKZD93Cg0wIPTppSfT992jfSEioIatNIHqSCb5hAtoFFUp4vvl2wiF3978K2BFct5qMQYvxcYKS4NhbwA==",
   "success": true,
   "projectFilePath": "c:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\TryBlog.Test\\TryBlog.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\berna\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\berna\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\berna\\.nuget\\packages\\coverlet.msbuild\\3.2.0\\coverlet.msbuild.3.2.0.nupkg.sha512",
     "C:\\Users\\berna\\.nuget\\packages\\dotnetenv\\2.3.0\\dotnetenv.2.3.0.nupkg.sha512",
     "C:\\Users\\berna\\.nuget\\packages\\fluentassertions\\6.5.1\\fluentassertions.6.5.1.nupkg.sha512",
     "C:\\Users\\berna\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

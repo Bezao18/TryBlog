@@ -105,7 +105,7 @@ public class TestUserController : IClassFixture<WebApplicationFactory<Program>>
         requestMessage.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);        
         requestMessage.Content = JsonContent.Create(new User {Email = "teste@gmail.com", Password = "123456789"});
         var httpResponse2 = await client.SendAsync(requestMessage);
-        httpResponse2.StatusCode.Should().Be(HttpStatusCode.OK);
+        httpResponse2.StatusCode.Should().Be(HttpStatusCode.BadRequest);
     }
 
 
