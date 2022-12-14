@@ -12,6 +12,27 @@
       },
       "results": [
         {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Possible null reference argument for parameter 'value' in 'Claim.Claim(string type, string value)'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///c:/Users/berna/Desktop/Projeto/TryBlog/src/Tryblog/Services/TokenGenerator.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 49,
+                  "endLine": 30,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "CS8618",
           "level": "warning",
           "message": "Non-nullable property 'Email' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
@@ -105,27 +126,6 @@
                   "startColumn": 24,
                   "endLine": 9,
                   "endColumn": 29
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8604",
-          "level": "warning",
-          "message": "Possible null reference argument for parameter 'value' in 'Claim.Claim(string type, string value)'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///c:/Users/berna/Desktop/Projeto/TryBlog/src/Tryblog/Services/TokenGenerator.cs",
-                "region": {
-                  "startLine": 30,
-                  "startColumn": 49,
-                  "endLine": 30,
-                  "endColumn": 71
                 }
               }
             }
