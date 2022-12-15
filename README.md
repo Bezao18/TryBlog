@@ -46,6 +46,7 @@ criar postagens novas, alterar postagens antigas, buscar postagens, etc.
    <ul>
      <li>Maior cobertura de testes</li>
      <li>Deploy da aplicação</li>
+     <li>Validação de Email</li>
   </ul>
 </details>
 
