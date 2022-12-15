@@ -23,3 +23,7 @@ criar postagens novas, alterar postagens antigas, buscar postagens, etc.
 </details>
 
 <hr>
+
+<details><summary><h2>🛣Rotas🛣</h2></summary><br />
+  <img alt="Rotas da API no Swagger" src="./images/Swagger.png"/>
+</details>
