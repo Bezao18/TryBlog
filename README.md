@@ -53,5 +53,5 @@ criar postagens novas, alterar postagens antigas, buscar postagens, etc.
 <hr>
 
 <h2>Aplicação rodando</h2>
-LInk: <a href="google.com">▶️Vídeo da aplicação▶️</a>
+LInk: <a href="">▶️Vídeo da aplicação▶️</a>
 
