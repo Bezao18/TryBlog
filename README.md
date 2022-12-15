@@ -49,9 +49,3 @@ criar postagens novas, alterar postagens antigas, buscar postagens, etc.
      <li>Validação de Email</li>
   </ul>
 </details>
-
-<hr>
-
-<h2>Aplicação rodando</h2>
-LInk: <a href="">▶️Vídeo da aplicação▶️</a>
-
