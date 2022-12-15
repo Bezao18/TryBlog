@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\Tryblog\\projeto-final.csproj": {}
+    "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\TryBlog\\projeto-final.csproj": {}
   },
   "projects": {
-    "c:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\Tryblog\\projeto-final.csproj": {
+    "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\TryBlog\\projeto-final.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\Tryblog\\projeto-final.csproj",
+        "projectUniqueName": "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\TryBlog\\projeto-final.csproj",
         "projectName": "projeto-final",
-        "projectPath": "c:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\Tryblog\\projeto-final.csproj",
+        "projectPath": "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\TryBlog\\projeto-final.csproj",
         "packagesPath": "C:\\Users\\berna\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\Tryblog\\obj\\",
+        "outputPath": "C:\\Users\\berna\\Desktop\\Projeto\\TryBlog\\src\\TryBlog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\berna\\AppData\\Roaming\\NuGet\\NuGet.Config"

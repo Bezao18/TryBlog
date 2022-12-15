@@ -8,7 +8,7 @@
         "version": "4.3.0.0",
         "fileVersion": "4.3.1-3.22505.12 (95493021)",
         "semanticVersion": "4.3.0",
-        "language": "en"
+        "language": "en-US"
       },
       "results": [
         {
@@ -18,7 +18,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///c:/Users/berna/Desktop/Projeto/TryBlog/src/Tryblog/Models/User.cs",
+                "uri": "file:///C:/Users/berna/Desktop/Projeto/TryBlog/src/TryBlog/Models/User.cs",
                 "region": {
                   "startLine": 8,
                   "startColumn": 23,
@@ -31,7 +31,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///c:/Users/berna/Desktop/Projeto/TryBlog/src/Tryblog/Models/User.cs",
+                "uri": "file:///C:/Users/berna/Desktop/Projeto/TryBlog/src/TryBlog/Models/User.cs",
                 "region": {
                   "startLine": 8,
                   "startColumn": 23,
@@ -52,7 +52,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///c:/Users/berna/Desktop/Projeto/TryBlog/src/Tryblog/Repository/TryBlogContext.cs",
+                "uri": "file:///C:/Users/berna/Desktop/Projeto/TryBlog/src/TryBlog/Repository/TryBlogContext.cs",
                 "region": {
                   "startLine": 10,
                   "startColumn": 12,
@@ -65,7 +65,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///c:/Users/berna/Desktop/Projeto/TryBlog/src/Tryblog/Repository/TryBlogContext.cs",
+                "uri": "file:///C:/Users/berna/Desktop/Projeto/TryBlog/src/TryBlog/Repository/TryBlogContext.cs",
                 "region": {
                   "startLine": 8,
                   "startColumn": 24,
@@ -86,7 +86,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///c:/Users/berna/Desktop/Projeto/TryBlog/src/Tryblog/Repository/TryBlogContext.cs",
+                "uri": "file:///C:/Users/berna/Desktop/Projeto/TryBlog/src/TryBlog/Repository/TryBlogContext.cs",
                 "region": {
                   "startLine": 10,
                   "startColumn": 12,
@@ -99,7 +99,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///c:/Users/berna/Desktop/Projeto/TryBlog/src/Tryblog/Repository/TryBlogContext.cs",
+                "uri": "file:///C:/Users/berna/Desktop/Projeto/TryBlog/src/TryBlog/Repository/TryBlogContext.cs",
                 "region": {
                   "startLine": 9,
                   "startColumn": 24,
@@ -120,7 +120,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///c:/Users/berna/Desktop/Projeto/TryBlog/src/Tryblog/Services/TokenGenerator.cs",
+                "uri": "file:///C:/Users/berna/Desktop/Projeto/TryBlog/src/TryBlog/Services/TokenGenerator.cs",
                 "region": {
                   "startLine": 30,
                   "startColumn": 49,
@@ -141,7 +141,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///c:/Users/berna/Desktop/Projeto/TryBlog/src/Tryblog/Repository/TryBlogRepository.cs",
+                "uri": "file:///C:/Users/berna/Desktop/Projeto/TryBlog/src/TryBlog/Repository/TryBlogRepository.cs",
                 "region": {
                   "startLine": 18,
                   "startColumn": 20,
@@ -162,7 +162,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///c:/Users/berna/Desktop/Projeto/TryBlog/src/Tryblog/Repository/TryBlogRepository.cs",
+                "uri": "file:///C:/Users/berna/Desktop/Projeto/TryBlog/src/TryBlog/Repository/TryBlogRepository.cs",
                 "region": {
                   "startLine": 22,
                   "startColumn": 20,
@@ -183,7 +183,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///c:/Users/berna/Desktop/Projeto/TryBlog/src/Tryblog/Repository/TryBlogRepository.cs",
+                "uri": "file:///C:/Users/berna/Desktop/Projeto/TryBlog/src/TryBlog/Repository/TryBlogRepository.cs",
                 "region": {
                   "startLine": 41,
                   "startColumn": 20,
@@ -204,7 +204,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///c:/Users/berna/Desktop/Projeto/TryBlog/src/Tryblog/Repository/TryBlogRepository.cs",
+                "uri": "file:///C:/Users/berna/Desktop/Projeto/TryBlog/src/TryBlog/Repository/TryBlogRepository.cs",
                 "region": {
                   "startLine": 53,
                   "startColumn": 35,
@@ -225,7 +225,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///c:/Users/berna/Desktop/Projeto/TryBlog/src/Tryblog/Program.cs",
+                "uri": "file:///C:/Users/berna/Desktop/Projeto/TryBlog/src/TryBlog/Program.cs",
                 "region": {
                   "startLine": 86,
                   "startColumn": 22,
@@ -238,7 +238,7 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///c:/Users/berna/Desktop/Projeto/TryBlog/src/Tryblog/Program.cs",
+                "uri": "file:///C:/Users/berna/Desktop/Projeto/TryBlog/src/TryBlog/Program.cs",
                 "region": {
                   "startLine": 7,
                   "startColumn": 1,
@@ -259,7 +259,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///c:/Users/berna/Desktop/Projeto/TryBlog/src/Tryblog/Program.cs",
+                "uri": "file:///C:/Users/berna/Desktop/Projeto/TryBlog/src/TryBlog/Program.cs",
                 "region": {
                   "startLine": 62,
                   "startColumn": 26,
@@ -280,7 +280,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///c:/Users/berna/Desktop/Projeto/TryBlog/src/Tryblog/Services/TokenGenerator.cs",
+                "uri": "file:///C:/Users/berna/Desktop/Projeto/TryBlog/src/TryBlog/Services/TokenGenerator.cs",
                 "region": {
                   "startLine": 27,
                   "startColumn": 32,
