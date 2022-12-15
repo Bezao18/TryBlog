@@ -25,5 +25,9 @@ criar postagens novas, alterar postagens antigas, buscar postagens, etc.
 <hr>
 
 <details><summary><h2>🛣Rotas🛣</h2></summary><br />
-  <img alt="Rotas da API no Swagger" src="./images/Swagger.png"/>
+  <img alt="Rotas da API no Swagger" src="./Images/Swagger.png"/>
+   <li>As rotas <code>login</code> e <code>signup</code> fazem login e cadastro de usuários novos. Quando a requisição é bem sucedida retorna um token</li>
+   🚨Para acessar as próximas rotas é necessário inserir clicar em Authorize e inserir <code>Bearer {token-gerado}</code>🚨
+   <li>As rotas <code>PUT post/id</code>, <code>POST post/id</code>, e <code>DELETE post/id</code> permitem alterar apenas posts feitos pelo usuário logado</li>
+    
 </details>
